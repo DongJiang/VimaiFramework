@@ -1,0 +1,11 @@
+framework module VimaiFramework {
+  umbrella header "VimaiFramework.h"
+
+  export *
+  module * { export * }
+}
+
+module VimaiFramework.Swift {
+    header "VimaiFramework-Swift.h"
+    requires objc
+}
