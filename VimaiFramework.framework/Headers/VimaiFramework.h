@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "DBoW2Wrapper.h"
+//#import "api.h"
 
 //! Project version number for VimaiFramework.
 FOUNDATION_EXPORT double VimaiFrameworkVersionNumber;
@@ -17,3 +18,4 @@ FOUNDATION_EXPORT const unsigned char VimaiFrameworkVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <VimaiFramework/PublicHeader.h>
 
+//#import <VimaiFramework/api.h>

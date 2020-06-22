@@ -1,9 +1,16 @@
-framework module VimaiFramework {
-  umbrella header "VimaiFramework.h"
+//
+//  module.modulemap
+//  VimaiFramework
+//
+//  Created by Jiang Dong on 4.6.2020.
+//  Copyright © 2020 vimai. All rights reserved.
+//
 
+framework module VimaiFramework {
+  header "api.h"
   export *
-  module * { export * }
 }
+
 
 module VimaiFramework.Swift {
     header "VimaiFramework-Swift.h"
